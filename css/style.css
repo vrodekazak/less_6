@@ -1,0 +1,143 @@
+/* 
+&display=swap
+&subset=cyrillic-ext 
+*/
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+li {
+	list-style: none;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+img {
+	vertical-align: top;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+html {
+	font-size: 16px;
+	/* по умолчанию */
+}
+
+body {
+	line-height: 1;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	padding: 20px;
+}
+
+/* *............. */
+.header {
+	margin: 0px 0px 50px 0px;
+}
+
+.circle {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-color: rgb(16, 181, 115);
+	text-align: center;
+	padding-top: 70px;
+	box-shadow: inset 5px 6px 7px rgb(224, 236, 0), 5px 11px 20px 5px rgb(16, 181, 115);
+	margin: 0px auto;
+}
+
+.circle__text {
+	color: rgb(187, 228, 20);
+	font-size: 25px;
+}
+
+.big-text p {
+	display: inline-block;
+	max-width: 300px;
+	max-height: 200px;
+	text-align: justify;
+	margin-right: 30px;
+	padding: 20px;
+	border-radius: 40px;
+	opacity: 50%;
+}
+
+.big-text p:nth-child(1) {
+	background-color: rgb(85, 170, 170);
+
+}
+
+.big-text p:nth-child(2) {
+	background-color: rgb(85, 106, 170);
+}
+
+.big-text p:nth-child(3) {
+	background-color: rgb(35, 30, 119);
+	margin-right: 0px;
+}
+
+.border-span {
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	border: 1px solid #000;
+	padding-top: 50px;
+}
+
+.dif-border {
+	width: 300px;
+	height: 300px;
+	text-align: center;
+	padding: 20px;
+	background-color: rgb(167, 215, 95);
+	font-size: 30px;
+	border-top: 20px dotted rgb(13, 26, 166);
+	border-right: 10px dashed rgb(24, 209, 83);
+	border-bottom: 15px solid rgb(200, 24, 209);
+	border-left: 30px double rgb(209, 194, 24);
+	margin: 0 auto;
+}
+
+.link {
+	font-size: 50px;
+	box-shadow: inset 1px 1px 10px 9px rgb(153, 10, 10), 1px 1px 10px 9px rgb(216, 153, 43);
+}
+
+.footer {
+	width: 300px;
+	margin: 0 auto;
+}
+
+.main {
+	margin: 0 0 50px 0;
+}
